@@ -19,8 +19,36 @@ leonardo.goto(-100,-20)
 
 ## 5. your code goes here
 
+x = random.randrange(1,100)
+c = random.randrange(1,100)
+leonardo.forward(x)
+michelangelo.forward(c)
+leonardo.goto(-100,-20)
+michelangelo.goto(-100,20)
+
+for i in (1,11):
+  x = random.randrange(1,100)
+  c = random.randrange(1,100)
+  leonardo.forward(x)
+  michelangelo.forward(c)
+michelangelo.goto(-100,20)
+leonardo.goto(-100,-20)
 
 # Part B - complete part B here
+
+degree1: int(degree)
+
+def turtle_draw (degree=None):
+  leonardo.goto(0,0)
+  for n in range(degree):
+    leonardo.down()
+    leonardo.pensize(3)
+    leonardo.forward(50)
+    leonardo.right(360/degree)
+    
+turtle_draw(degree=6)
+
+
 
 
 window.exitonclick()
