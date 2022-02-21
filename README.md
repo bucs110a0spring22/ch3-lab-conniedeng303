@@ -16,10 +16,10 @@ Grace days used for this assignment: < 0 >
 Grace days remaining: < 5 >/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < NONE.>
+ NONE.
 
 ## REFERENCES:
- < List any outside resources used >
+ NONE. 
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+ NONE. 
