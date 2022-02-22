@@ -8,7 +8,9 @@
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+ For Part A, I used the random import to pick a random value for the turtles to use to go forward. I used the random import to pick a random value from 1 to 101. I used a for function to pick a random value ten times.
+
+ For part B, I used a nested for loop to a) clear and reset the turtle back to its original position, and then b) actually create shapes with different sides. >
 
 ## GRACE DAYS
 Grace days used for this assignment: < 0 >

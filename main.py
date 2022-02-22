@@ -47,31 +47,6 @@ for item in sides:
       leonardo.pensize(3)
       leonardo.forward(50)
       leonardo.right(360/item)
-      
-sides = [3,4,6,9,12]
-for item in sides:
-  leonardo.clear()
-  leonardo.goto(0,0)
-  for n in range(item):
-      leonardo.down()
-      leonardo.pensize(3)
-      leonardo.forward(50)
-      leonardo.right(360/item)
-
-# def turtle_draw (degree=None):
-#   leonardo.clear()
-#   leonardo.goto(0,0)
-#   for n in range(degree):
-#       leonardo.down()
-#       leonardo.pensize(3)
-#       leonardo.forward(50)
-#       leonardo.right(360/degree)
-
-# turtle_draw(degree=3)
-# turtle_draw(degree=4)
-# turtle_draw(degree=6)
-# turtle_draw(degree=9)
-# turtle_draw(degree=12)
 
 window.exitonclick()
 
